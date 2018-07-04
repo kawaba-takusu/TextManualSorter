@@ -10,7 +10,9 @@
 ## 動作環境
 
 Windows10
+
 .NET Framework 4.5 以上必須
+
 VisualStudio VisualBasic.NET 2017 Express
 
 ## 使い方
@@ -157,7 +159,7 @@ Ver.1.2.1.0 作成。
 Ver.1.1.0.0 作成。
 TextManualSorter.exeにフォルダをドロップで開けるようにした。
 
-###【2017/04/07】
+### 【2017/04/07】
 
 Ver.1.0.0.0 作成。
 
