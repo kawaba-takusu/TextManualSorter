@@ -101,4 +101,15 @@ Public Class ChildTextForm
         Me.Height = G_KO_LENGTH
     End Sub
 
+    Private Sub ChildTextForm_Move(sender As Object, e As EventArgs) Handles MyBase.Move
+        lbl_Locate.Text = "(" & Me.Left.ToString() & ", " & Me.Top.ToString() & ")"
+    End Sub
+
+    Private Sub chk_Yuko_CheckedChanged(sender As Object, e As EventArgs) Handles chk_Yuko.CheckedChanged
+        If chk_Yuko.Checked Then
+            Me.BackColor = Color.AliceBlue
+        Else
+            Me.BackColor = Color.Red
+        End If
+    End Sub
 End Class

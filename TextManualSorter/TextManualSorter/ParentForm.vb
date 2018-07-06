@@ -346,19 +346,10 @@ Public Class ParentForm
     End Sub
 
     Private Sub ChildTextFormMove(sender As Object, e As EventArgs)
-        Dim child As ChildTextForm = DirectCast(sender, ChildTextForm)
-        child.lbl_Locate.Text = "(" & child.Left.ToString() & ", " & child.Top.ToString() & ")"
         m_ChildMovedFlag = True
     End Sub
 
     Private Sub chkYukoCheckedChanged(sender As Object, e As EventArgs)
-        Dim chk As CheckBox = DirectCast(sender, CheckBox)
-        Dim child As ChildTextForm = DirectCast(chk.Parent, ChildTextForm)
-        If child.chk_Yuko.Checked Then
-            child.BackColor = Color.AliceBlue
-        Else
-            child.BackColor = Color.Red
-        End If
         m_ChildMovedFlag = True
     End Sub
 
