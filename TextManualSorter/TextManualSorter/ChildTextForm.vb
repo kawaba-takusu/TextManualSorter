@@ -60,16 +60,6 @@ Public Class ChildTextForm
         End If
     End Sub
 
-    Private Sub KoTextForm_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
-        If e.CloseReason = CloseReason.UserClosing Then
-            If MsgBox("ファイルを削除しますか？", MsgBoxStyle.Question Or MsgBoxStyle.YesNo, Me.Text) = MsgBoxResult.Yes Then
-                IO.File.Delete(m_FilePath)
-            Else
-                e.Cancel = True
-            End If
-        End If
-    End Sub
-
     Private Sub KoTextForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         getText()
     End Sub

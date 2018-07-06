@@ -56,7 +56,7 @@ Partial Class ChildTextForm
         Me.chk_Yuko.Location = New System.Drawing.Point(209, 11)
         Me.chk_Yuko.Margin = New System.Windows.Forms.Padding(4)
         Me.chk_Yuko.Name = "chk_Yuko"
-        Me.chk_Yuko.Size = New System.Drawing.Size(58, 19)
+        Me.chk_Yuko.Size = New System.Drawing.Size(71, 23)
         Me.chk_Yuko.TabIndex = 2
         Me.chk_Yuko.Text = "有効"
         Me.chk_Yuko.UseVisualStyleBackColor = True
@@ -82,15 +82,16 @@ Partial Class ChildTextForm
         Me.lbl_Locate.Location = New System.Drawing.Point(-3, 42)
         Me.lbl_Locate.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbl_Locate.Name = "lbl_Locate"
-        Me.lbl_Locate.Size = New System.Drawing.Size(55, 15)
+        Me.lbl_Locate.Size = New System.Drawing.Size(69, 19)
         Me.lbl_Locate.TabIndex = 4
         Me.lbl_Locate.Text = "Label1"
         '
-        'KoTextForm
+        'ChildTextForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(334, 311)
+        Me.ControlBox = False
         Me.Controls.Add(Me.lbl_Locate)
         Me.Controls.Add(Me.txt_Naiyo)
         Me.Controls.Add(Me.chk_Yuko)
@@ -101,7 +102,7 @@ Partial Class ChildTextForm
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "KoTextForm"
+        Me.Name = "ChildTextForm"
         Me.Text = "KoTextForm"
         Me.ResumeLayout(False)
         Me.PerformLayout()
